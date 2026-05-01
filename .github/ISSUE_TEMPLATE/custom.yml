@@ -6,6 +6,10 @@ projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - miygteet
 body:
+ - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
  - type: input
     attributes:
       label: IPA URL
