@@ -1,0 +1,31 @@
+name: Upload IPA
+description: Suggest an ipa file for me to upload
+title: "[IPASUG]: "
+labels: ["IPA Suggestion"]
+projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - miygteet
+body:
+ - type: input
+    id: ipaurl
+    attributes:
+      label: IPA URL
+      description: What is the link to the IPA?
+      placeholder: ex. ipa.link.here/example
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Agreements
+      description: By submitting this suggestion, you must aggree to the following:
+      options:
+        - label: I agree to follow this project's Guidelines
+          required: true
+  - type: upload
+    id: ipafile
+    attributes:
+      label: Upload IPA
+      description: If applicable, please upload the ipa file just in case we can't reach the website
+    validations:
+      required: false
