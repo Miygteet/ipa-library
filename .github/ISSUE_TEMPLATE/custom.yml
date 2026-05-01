@@ -7,8 +7,7 @@ assignees:
   - miygteet
 body:
  - type: input
-    
-    attributes:
+      attributes:
       label: IPA URL
       description: What is the link to the IPA?
       placeholder: ex. ipa.link.here/example
