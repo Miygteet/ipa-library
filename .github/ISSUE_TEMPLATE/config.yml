@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Upload IPA
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdlBnqmFu6tEq9vMZVzGj24XqzwiXvLhzx8gC21mYsIh21-IA/viewform?usp=publish-editor
+    about: Suggest an ipa file for me to upload.
+  - name: Other
+    url: https://docs.google.com/forms/d/e/1FAIpQLSddbEAX_TAzgMpiAYiqt0cJ79Xm14WjSnTm4Hb76GA4Ur0Giw/viewform?usp=publish-editor
+    about: Please report bugs and other errors here.
